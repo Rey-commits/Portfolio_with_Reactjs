@@ -6,7 +6,7 @@ function HomePage() {
             <header className="hero">
                 <h1 className="hero-text">
                     Hi, I am 
-                    <span>Lorem Ipsum.</span>
+                    <span>Lorem Ipsum. To be continue at 46:30</span>
                 </h1>
             </header>
         </div>

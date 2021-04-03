@@ -38,7 +38,7 @@ function NavBar() {
                 </ul>
                 <footer className="footer">
                     <p>
-                        @2021 Lorem Impum
+                        @2021 Mesuga Reymond
                     </p>
                  </footer>
             </nav>

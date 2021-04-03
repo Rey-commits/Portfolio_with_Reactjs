@@ -9,47 +9,29 @@ function ImageSection() {
             </div>
             <div className="about-info">
                 <h4>I am<span> Reymond Mesuga</span></h4>
-                <p>
+                <p className="about-text">
                      It is a long established fact that a reader will be 
                     distracted by the readable content of a page when looking 
                     at its layout.
                 </p>
-                <div className="about-details">
-                    <div className="details">
+                {/* <div className="about-details">
+                    <div className="left-section">
                         <p>Full Name</p>
-                        <p>: Reymond Robin Mesuga</p>
-                    </div>
-                </div>
-                <div className="about-details">
-                    <div className="details">
                         <p>Age</p>
-                        <p>: 21</p>
-                    </div>
-                </div>
-                <div className="about-details">
-                    <div className="details">
                         <p>Nationality</p>
-                        <p>: Filipino</p>
-                    </div>
-                </div>
-                <div className="about-details">
-                    <div className="details">
                         <p>Languages</p>
-                        <p>: Filipino and English</p>
+                        <p>Hometown</p> 
                     </div>
-                </div>
-                <div className="about-details">
-                    <div className="details">
-                        <p>Hometown</p>
-                        <p>: Metro Manila, Philippines</p>
-                    </div>
-                </div>
-                <div className="about-details">
-                    <div className="details">
-                        <p>Full Name</p>
+                    <div className="right-section">
                         <p>: Reymond Robin Mesuga</p>
+                        <p>: 21</p>
+                        <p>: Filipino</p>
+                        <p>: Filipino and English</p>
+                        <p>: Metro Manila, PH</p> 
                     </div>
-                </div>
+                </div> */}
+                <button className="btn">Download CV</button>
+
             </div>
         </div>
     )

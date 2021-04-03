@@ -13,18 +13,19 @@ function HomePage() {
                     <span> Reymond Mesuga</span>
                 </h1>
                 <p className="h-sub-text">
-                    It is a long established fact that a reader will be 
-                    distracted by the readable content of a page when looking 
-                    at its layout.
+                        To be continue at 2:01:27.
+                        It is a long established fact that a reader will be 
+                        distracted by the readable content of a page when looking 
+                        at its layout.
                 </p>
                 <div className="icons">
-                    <Link className="icon-holder">
-                        <FontAwesomeIcon icon={faFacebook} className="icon fb"/>
+                    <Link className="icon-holder" to={{pathname:"https://www.facebook.com/reymond.mesugah/"}} target="_blank">
+                        <FontAwesomeIcon  icon={faFacebook} className="icon fb"/>
                     </Link>
-                    <Link className="icon-holder">
+                    <Link className="icon-holder" to={{pathname:"https://github.com/Rey-commits"}} target="_blank">
                         <FontAwesomeIcon icon={faGithub} className="icon gh"/>
                     </Link>
-                    <Link className="icon-holder">
+                    <Link className="icon-holder" to={{pathname:"https://www.linkedin.com/in/reymond-r-21410/"}} target="_blank">
                         <FontAwesomeIcon icon={faLinkedin} className="icon li"/>
                     </Link>
                 </div>

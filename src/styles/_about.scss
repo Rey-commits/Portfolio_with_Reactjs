@@ -47,11 +47,16 @@
     margin-top: 1rem;
     position: relative;
     &::after{
+        position: absolute;
         content: "";
         width: 0;
         height: .3rem;
         left: 0;
         bottom: 0;
-        background-color: #037FFF;
+        background-color: #a4acc4;;
+        transition: all 0.4s ease-in-out;
+    }
+    &:hover::after{
+        width: 100%;
     }
 }

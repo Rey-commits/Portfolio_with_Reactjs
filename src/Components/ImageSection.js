@@ -10,7 +10,8 @@ function ImageSection() {
             <div className="about-info">
                 <h4>I am<span> Reymond Mesuga</span></h4>
                 <p className="about-text">
-                     It is a long established fact that a reader will be 
+                    To be continue at 2:40:46. It is a long established fact 
+                    that a reader will be 
                     distracted by the readable content of a page when looking 
                     at its layout.
                 </p>

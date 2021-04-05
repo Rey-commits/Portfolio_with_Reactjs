@@ -1,7 +1,7 @@
 .ImageSection{
     display: flex;
     margin-top: 4rem;
-    height: 70vh;
+    height: 50vh;
     margin-bottom: 0rem;
     .img{
         width: 100%;
@@ -15,11 +15,13 @@
 
     .about-info{
         margin-left: 2rem;
+        color: #DCDCDC;
         h4{
             font-size: 2rem;
         }
         .about-text{
             padding: 1rem 0;
+            color: #DCDCDC;
         }
     }
 }
@@ -36,12 +38,14 @@
 
 .btn{
     padding: 1rem 2rem;
-    background-color: #037FFF;
+    // background-color: #037FFF;
+    background-color: #009900;
     outline: none;
     border: none;
     font-family: inherit;
     font-size: inherit;
     color: white;
+    // color: #DCDCDC;
     text-transform: uppercase;
     cursor: pointer;
     letter-spacing: 2px;

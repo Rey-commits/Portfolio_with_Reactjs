@@ -1,5 +1,5 @@
 .NavBar{
-    height:100vh;
+    height:100vh; 
     .nav{
         height: 100%;
         display: flex;
@@ -11,7 +11,8 @@
             width: 100%;
             text-align: center;
             margin-top: 1rem;
-            border-bottom: 1px solid #2e344e;
+            // border-bottom: 1px solid #2e344e;
+            border-bottom: #003300;
             img{
                 width: 60%;
                 border-radius: 120%;
@@ -29,7 +30,8 @@
                 a{
                     text-decoration: none;
                     font-size: inherit;
-                    color: inherit;
+                    // color: inherit;
+                    color: white;
                     display: block;
                     padding: .5rem 0;
                     position: relative;
@@ -40,7 +42,8 @@
                         left: 0;
                         width: .4rem;
                         height: 100%;
-                        background-color: #0381ff33;
+                        // background-color: #0381ff33;
+                        background-color: #0033005d;
                         transform-origin: bottom;
                         transform: scale(0);
                         // overflow-x: hidden;
@@ -59,7 +62,9 @@
 
         .footer {
             width: 100%;
-            border-top: 1px solid #2e344e;
+            // border-top: 1px solid #2e344e;
+            border-top: #003333;
+            color: white;
             p{
                 text-align: center;
                 padding: 1rem 0;
@@ -70,6 +75,7 @@
 }
 
 .active{
-    background-color: #0314ff9d;
+    // background-color: #0314ff9d;
+    background-color: #003300;
 }
 

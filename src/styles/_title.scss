@@ -1,7 +1,7 @@
 .Title{
     text-transform:uppercase;
     font-size: 2rem;
-    color: white;
+    color: #DCDCDC;
     position: relative;
     padding-bottom: 1rem;
     letter-spacing: 2px;
@@ -21,7 +21,8 @@
         bottom: 0;
         position: absolute;
         left: 0;
-        background-color: #037FFF;
+        // background-color: #037FFF;
+        background-color: #00CC00;
         width: 3rem;
         height: .4rem;
         border-radius: 50px;
@@ -34,5 +35,6 @@
         left: 0;
         font-size: 5rem;
         opacity: 0.07;
+        color: #00ff009f;
     }
 }

@@ -14,12 +14,12 @@ function HomePage() {
                 </h1>
                 <p className="h-sub-text">
                         I'm a college student major in physics. 
-                        In my spare time, i did some personal projects 
+                        In my spare time, i do some personal projects 
                         including front-end web/software 
-                        development using React JS as my main framework. I also did some data science and 
-                        artificial intelligence using python. As a physics student, 
-                        my research focuses on the application of artificial inteligence 
-                        in medical imaging.
+                        development on React JS, data science and artificial intelligence on python.
+                        As a physics student, my research focuses on the application of 
+                        artificial intelligence in medical imaging.
+
                 </p>
                 <div className="icons">
                     <Link className="icon-holder" to={{pathname:"https://www.facebook.com/reymond.mesugah/"}} target="_blank">

@@ -29,6 +29,8 @@ function AboutPage() {
                     <SkillsSection skill={"Git Command "} progress={"85%"} width={"85%"} />
                 </div> 
             </div>
+
+            <Title title={"SERVICES"} span={"SERVICES"}/>
             <div className="services-container">
                 <ServicesSection image={design} title={"Web design"} text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
                 <ServicesSection image={intelligence} title={"Artificial Intelligence"} text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>

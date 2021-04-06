@@ -4,6 +4,8 @@ import ImageSection from '../Components/ImageSection'
 import SkillsSection from '../Components/SkillsSection'
 import ServicesSection from '../Components/ServicesSection'
 import design from "../img/design.svg";
+import intelligence from "../img/intelligence.svg";
+import gamedev from "../img/game-dev.svg";
 
 function AboutPage() {
     return (
@@ -28,9 +30,9 @@ function AboutPage() {
                 </div> 
             </div>
             <div className="services-container">
-                <ServicesSection image={design} title={"Web design"}/>
-                <ServicesSection image={design} title={"Web design"}/>
-                <ServicesSection image={design} title={"Web design"}/>
+                <ServicesSection image={design} title={"Web design"} text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
+                <ServicesSection image={intelligence} title={"Artificial Intelligence"} text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
+                <ServicesSection image={gamedev} title={"Game Development"} text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
             </div>         
         </div>
     )

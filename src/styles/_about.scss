@@ -1,3 +1,7 @@
+// .AboutPage{
+//     margin: 0 8%;
+// }
+
 .ImageSection{
     display: flex;
     margin-top: 4rem;
@@ -70,11 +74,11 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     // column-gap: 3rem;
-    width: 90%;
+    width: 100%;
     
 }
 
 .container-for-grid{
     padding-top: 2rem;
-    width: 130%;
+    width: 100%;
 }

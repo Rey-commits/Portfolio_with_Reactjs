@@ -28,7 +28,9 @@ function AboutPage() {
                 </div> 
             </div>
             <div className="services-container">
-                <ServicesSection image={design} />
+                <ServicesSection image={design} title={"Web design"}/>
+                <ServicesSection image={design} title={"Web design"}/>
+                <ServicesSection image={design} title={"Web design"}/>
             </div>         
         </div>
     )

@@ -9,9 +9,12 @@ function BlogsPage() {
                     return <div className="blog" key={blog.id} >
                         <div className="blog-content">
                             <img src={blog.image} alt=""/>
-                            <a href="github.com" className="blog-link">
-                                How To Install and Use Github easily.
+                            <a href={blog.link} className="blog-link">
+                                {blog.title}
                             </a>
+                            <div className="date-con">
+                                
+                            </div>
                         </div>
                     </div>
                 })

@@ -1,0 +1,14 @@
+.ServicesSection{
+    .service{
+        width: 30%;
+        background-color: #26202A;
+        border-left: 1px solid #2e344e;
+        border-right: 1px solid #2e344e;
+        border-bottom: 1px solid #2e344e;
+        border-top: 5px solid #2e344e;
+        transition: all .4s ease-in-out;
+        &:hover{
+            border-top: 8px solid #037FFF;
+        }
+    }
+}

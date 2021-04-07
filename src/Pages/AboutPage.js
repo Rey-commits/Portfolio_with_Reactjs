@@ -32,9 +32,12 @@ function AboutPage() {
 
             <Title title={"SERVICES"} span={"SERVICES"}/>
             <div className="services-container">
-                <ServicesSection image={design} title={"Web Development"} text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
-                <ServicesSection image={intelligence} title={"Artificial Intelligence"} text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
-                <ServicesSection image={analytics} title={"Data Analytics"} text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
+                <ServicesSection image={design} title={"Web Development"} 
+                text="I mainly used React JS in most of the web applications that i have made. These applications includes portfolio, landing page, travel web apps and more."/>
+                <ServicesSection image={intelligence} title={"Artificial Intelligence"} 
+                text="My expertise on artificial intelligance mainly focuses on deep learning and computer vision using python modules such as PyTorch and OpenCV."/>
+                <ServicesSection image={analytics} title={"Data Analytics"} 
+                text="I used python as primary langaunge for data analytics. Data involve in my studies ranging from health related datasets to socio-economic datasets."/>
             </div>         
         </div>
     )

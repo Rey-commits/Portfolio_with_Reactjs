@@ -1,12 +1,14 @@
 .ContactItem{
     width: 100%;
-    margin: 1rem 0;
+&:not(:last-child){
+    margin-bottom: 1rem;
+}
    .contact{
        display: flex;
        align-items: center;
        height: 10rem;
        background-color: #191D2B;
-       padding: 1rem 0;
+       padding: 3rem 0;
        width: max-content;
        .right-items{
            margin-left: 2rem;
@@ -16,6 +18,13 @@
            padding: 1rem;
            border: 1px solid #2e344e;
            margin-left: 2rem;
+           width: 25%;
+       }
+       .right-items{
+           h6{
+               font-size: 1.4rem;
+               font-weight: 500;
+           }
        }
    }
 }
@@ -29,7 +38,7 @@
 }
 
 .map-sect{
-    width: 90%;
+    width: 95%;
     padding: 1rem;
     background-color: #191D2B;
     iframe{
@@ -39,4 +48,7 @@
 }
 
 .contact-sect{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }

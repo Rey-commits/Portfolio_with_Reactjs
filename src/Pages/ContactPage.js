@@ -1,9 +1,9 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
 import React from 'react'
 import ContactItem from '../Components/ContactItem';
-import phone from "../img/phone.svg"
-import email from "../img/emailme.svg"
-import location from "../img/location.svg"
+import phone from "../img/calling.svg"
+import email from "../img/email.svg"
+import location from "../img/home-location.svg"
 
 function ContactPage() {
     return (
@@ -13,7 +13,7 @@ function ContactPage() {
             </div>
             <div className="map-section">
                 <ContactItem icon={phone} text1={"+123 34567789"} text2={"+0333 6789 4567"} title={"Phone"}/>
-                <ContactItem icon={email} text1={"+123 34567789"} text2={"+0333 6789 4567"} title={"Email"}/>
+                <ContactItem icon={email} text1={"mesugareymondrobin@gmail.com"} text2={"+0333 6789 4567"} title={"Email"}/>
                 <ContactItem icon={location} text1={"+123 34567789"} text2={"+0333 6789 4567"} title={"Address"}/>
             </div>
         </div>

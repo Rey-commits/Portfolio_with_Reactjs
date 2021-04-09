@@ -21,7 +21,8 @@
 }
 
 .ContactPage{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     .contact-sect{
         width: 100%;
     }
@@ -38,5 +39,4 @@
 }
 
 .contact-sect{
-    margin-left: 2rem;
 }

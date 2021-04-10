@@ -1,9 +1,12 @@
 import React from 'react'
+import Title from '../Components/Title'
 
 function PortfoliosPage() {
     return (
-        <div>
-            <h1>portfolios page</h1>
+        <div className="PortfolioPage">
+            <div className="title">
+                <Title title={"ABOUT ME"} span={"ABOUT ME"}/>
+            </div>
         </div>
     )
 }

@@ -1,8 +1,9 @@
 .ContactItem{
-    width: 100%;
-&:not(:last-child){
-    margin-bottom: 1rem;
-}
+    width: 110%;
+    padding-left: 1rem;
+    &:not(:last-child){
+        margin-bottom: 1rem;
+    }
    .contact{
        display: flex;
        align-items: center;
@@ -10,7 +11,8 @@
     //    background-color: #191D2B;
        background-color: #003333;
        padding: 3rem 0;
-       width: max-content;
+    //    width: max-content;
+       width: initial;
        .right-items{
            margin-left: 2rem;
            margin-right: 2rem;
@@ -37,6 +39,7 @@
 .ContactPage{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 4rem;
     .contact-sect{
         width: 100%;
     }
@@ -44,7 +47,6 @@
 
 .map-sect{
     width: 100%;
-    padding: 1rem;
     background-color: #383838;
     // border: 2px solid #006600;
     iframe{
@@ -60,5 +62,5 @@
 }
 
 .title{
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 }

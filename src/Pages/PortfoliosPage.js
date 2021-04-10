@@ -1,9 +1,14 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
 import Categories from '../Components/Categories'
-import MenuItem from '../Components/MenuItem'
 import Title from '../Components/Title'
+import portfolios from "../Components/allportfolios"
+import {useState} from "react"
+import MenuItems from '../Components/MenuItems'
 
 function PortfoliosPage() {
+    const [categories, setCategories] = useState(null);
+    const [menuItems, setMenuItems] = useState(portfolios);
     return (
         <div className="PortfolioPage">
             <div className="title">
@@ -11,7 +16,7 @@ function PortfoliosPage() {
             </div>
             <div className="portfolios">
                 <Categories />
-                <MenuItem />
+                <MenuItems menuItem={menuItems} />
             </div>
         </div>
     )

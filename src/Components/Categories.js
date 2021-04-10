@@ -1,11 +1,16 @@
-import React from 'react'
+import React from 'react';
 
-function Categories() {
+function Categories({filter, categories}) {
     return (
-        <div>
-            
+        <div className="buttons">
+            {
+                categories.map((cat, i)=>{
+                    return <button type="button" className="btn-port" onClick={()=> filter(cat)} key={i}>{cat}</button>
+                })
+            }
         </div>
     )
 }
 
-export default Categories
+export default Categories;
+

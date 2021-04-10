@@ -8,17 +8,22 @@
         position: fixed;
         z-index: 5;
         border-right: 1px solid #2e344e;
+        transition: all .4s ease-in-out;
+        transform-origin: left;
         @media screen and (max-width: 1000px){
             transform: translateX(-100%);
         }
         @media screen and (min-width: 1000px){
-            width: 16%;
+            width: 18%;
+        }
+        @media screen and (max-width: 600px){
+            font-size: 2rem;
         }
     }
     .nav-toggle{
-        @media screen and (max-width: 1000px){
+        @media screen and (max-width: 1100px){
             transform: translateX(0);
-            width: 30%;
+            width: 100%;
         }
     }
 
@@ -70,7 +75,7 @@
             margin-bottom: .5rem;
         }
     }
-    @media screen and (max-width: 1000px){
+    @media screen and (min-width: 600px){
         display: block;
         .line-1, .line-2, .line-3{
             display: block;

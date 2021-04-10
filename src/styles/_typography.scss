@@ -15,6 +15,14 @@
         color: #33CC00;
     }
 }
+.hero-text:hover{
+    color: #33CC00;
+    // transition: all 1s ease-in-out;
+    span{
+        // transition: all 1s ease-in-out;
+        color: #DCDCDC;
+    }
+}
 
 .h-sub-text{
     text-align: center;

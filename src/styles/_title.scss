@@ -5,6 +5,10 @@
     position: relative;
     padding-bottom: 1rem;
     letter-spacing: 2px;
+    h3:hover{
+        transition: all 1.2s ease-in-out;
+        color: #00CC00;
+    }
 
     &::before{
         content: "";
@@ -14,7 +18,7 @@
         background-color: #0381ff38;
         width: 6rem;
         height: .4rem;
-        border-radius: 50px;
+        border-radius: 50px; 
     }
     &::after{
         content: "";

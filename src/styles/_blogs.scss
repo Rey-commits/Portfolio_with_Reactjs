@@ -3,7 +3,8 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2.5rem;
     .blog{
-        background-color: #161925;
+        // background-color: #161925;
+        background-color: #003333;
         width: 100%;
         padding: 1rem;
         overflow: hidden;
@@ -20,7 +21,7 @@
             }
         }
         .blog-link{
-            color: inherit;
+            color: white;
             font-family: inherit;
             text-transform: none;
             font-size: 1.2rem;

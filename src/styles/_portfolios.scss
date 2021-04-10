@@ -46,7 +46,7 @@
                         text-decoration: none;
                         font-family: inherit;
                         border-radius: 100%;
-                        background-color: #037FFF;
+                        background-color: #0f760f;
                         color: white;
                         &:not(:last-child){
                             margin-right: 2rem;
@@ -69,7 +69,7 @@
             color: white;
             transition: all .3s ease-in-out;
             &:hover{
-                color: #037FFF
+                color: #33CC00
             }
         }
     }

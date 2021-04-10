@@ -76,6 +76,7 @@ const portfolios = [
         image: port4,
         title: 'Vanilla Javascript Website'
     }
+    
 ]
 
 export default portfolios;

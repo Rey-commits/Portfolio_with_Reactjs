@@ -6,9 +6,18 @@
         // background-color: #006600;
         background-color: #0f760f;
         position: fixed;
+        z-index: 5;
         border-right: 1px solid #2e344e;
         @media screen and (max-width: 1000px){
             transform: translateX(-100%);
+        }
+        @media screen and (max-width: 600px){
+        }
+    }
+    .nav-toggle{
+        @media screen and (max-width: 1000px){
+            transform: translateX(0);
+            width: 30%;
         }
     }
 

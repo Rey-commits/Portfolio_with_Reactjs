@@ -1,6 +1,6 @@
 .App{
     .sidebar{
-        width: 16%;
+        // width: 16%;
         height: 100vh;
         // background-color: #191D2B;
         // background-color: #006600;
@@ -11,7 +11,8 @@
         @media screen and (max-width: 1000px){
             transform: translateX(-100%);
         }
-        @media screen and (max-width: 600px){
+        @media screen and (min-width: 1000px){
+            width: 16%;
         }
     }
     .nav-toggle{

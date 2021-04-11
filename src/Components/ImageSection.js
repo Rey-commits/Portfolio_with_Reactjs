@@ -1,5 +1,5 @@
 import React from 'react';
-import reymond from '../img/reymond.jpg';
+// import reymond from '../img/reymond.jpg';
 // import reymond1 from "../img/reymond1.jpg"
 
 function ImageSection() {

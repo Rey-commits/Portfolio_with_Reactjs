@@ -40,7 +40,7 @@ function Navbar() {
 
                 <footer className="footer">
                     <p>
-                        <i class="fas fa-copyright"></i> 2021 Mesuga Reymond
+                    © 2021 Mesuga Reymond
                     </p>
                   </footer>
             </nav>

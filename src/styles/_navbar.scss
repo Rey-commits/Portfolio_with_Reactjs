@@ -8,14 +8,14 @@
         align-items: center;
 
         .profile{
-            width: 100%;
+            width: 60%;
             text-align: center;
             margin-top: 1rem;
-            border-bottom: 1px solid #003300;
+            // border-bottom: 1px solid #003300;
             img{
-                width: 70%;
-                border-radius: 90%;
-                border: 5px solid #2e344e;
+                width: 100%;
+                border-radius: 100%;
+                // border: 5px solid #2e344e;
                 margin-bottom: 1rem;
             }
         }
@@ -39,7 +39,7 @@
                         left: 0;
                         width: .4rem;
                         height: 100%;
-                        background-color: #0033005d;
+                        // background-color: #0033005d;
                         transform-origin: bottom;
                         transform: scale(0);
                         overflow-x: hidden;
@@ -56,7 +56,7 @@
 
         .footer{
             width: 100%;
-            border-top: 1px solid #003333;
+            // border-top: 1px solid #003333;
             p{
                 text-align: center;
                 padding: 1rem 0;

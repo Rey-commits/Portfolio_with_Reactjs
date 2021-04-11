@@ -12,22 +12,23 @@
         padding: 1rem;
         overflow: hidden;
         .blog-content{
+            color: #DCDCDC;
             overflow: hidden;
-            padding-bottom: 2rem;
+            padding-bottom: 1rem;
             img{
                 width: 100%;
                 transition: all .2s ease-in-out;
                 &:hover{
                     transform: scale(1.1);
                 }
-                padding-bottom: 2rem;
+                padding-bottom: 1rem;
             }
             .blog-link{
                 color: inherit;
                 font-family: inherit;
                 text-decoration: none;
-                font-size: 2rem;
-                padding-bottom: 2rem;
+                font-size: 1.3rem;
+                padding-bottom: 1rem;
                 transition: all .4s ease-in-out;
                 &:hover{
                     color: #037FFF;

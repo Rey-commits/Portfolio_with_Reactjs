@@ -25,15 +25,13 @@ function ImageSection() {
                         <p>Nationality</p>
                         <p>Languages</p>
                         <p>Address</p>
-                        <p>Countries</p>
                     </div>
                     <div className="right-section">
-                        <p>: Lorem Ipsum</p>
-                        <p>: 50</p>
-                        <p>: French</p>
-                        <p>: French, Spanish, English</p>
-                        <p>: 2 Beightbridge, BN7 GB9, United kingdom</p>
-                        <p>: France, Spain, Germany</p>
+                        <p>: Reymond Robin. Mesuga</p>
+                        <p>: 21</p>
+                        <p>: Filipino</p>
+                        <p>: Filipino, English</p>
+                        <p>: Parañaque City, Philippines</p>
                     </div>
                 </div>
                 <button className="btn">Download Cv</button>

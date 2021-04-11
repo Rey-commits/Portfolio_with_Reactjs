@@ -1,13 +1,13 @@
 import React from 'react';
-import reymond from '../img/library.jpg';
+import reymond from '../img/reymond.jpg';
 // import reymond1 from "../img/reymond1.jpg"
 
 function ImageSection() {
     return (
         <div className="ImageSection">
-            <div className="img">
+            {/* <div className="img">
                 <img className="img1" src={reymond} alt=""/>
-            </div>
+            </div> */}
             
             <div className="about-info">
                 <h4>I am<span> Reymond Mesuga</span></h4>

@@ -1,40 +1,45 @@
-import React from 'react'
-import reymond1 from "../img/reymond1.jpg"
+import React from 'react';
+import reymond from '../img/library.jpg';
+// import reymond1 from "../img/reymond1.jpg"
 
 function ImageSection() {
     return (
         <div className="ImageSection">
             <div className="img">
-                <img src={reymond1} alt=""/>
+                <img className="img1" src={reymond} alt=""/>
             </div>
+            
             <div className="about-info">
                 <h4>I am<span> Reymond Mesuga</span></h4>
                 <p className="about-text">
-                    To be continue at 3:39:40. It is a long established fact 
-                    that a reader will be 
-                    distracted by the readable content of a page when looking 
-                    at its layout.
+                    I'm a junior physics student at PUP and currently 
+                    doing my research on the application of artificial intelligence 
+                    in medical imaging and in the field of gravitation. I also enjoy 
+                    doing personal projects in web/software development.  
+                
                 </p>
-                {/* <div className="about-details">
+                <div className="about-details">
                     <div className="left-section">
                         <p>Full Name</p>
                         <p>Age</p>
                         <p>Nationality</p>
                         <p>Languages</p>
-                        <p>Hometown</p> 
+                        <p>Address</p>
+                        <p>Countries</p>
                     </div>
                     <div className="right-section">
-                        <p>: Reymond Robin Mesuga</p>
-                        <p>: 21</p>
-                        <p>: Filipino</p>
-                        <p>: Filipino and English</p>
-                        <p>: Metro Manila, PH</p> 
+                        <p>: Lorem Ipsum</p>
+                        <p>: 50</p>
+                        <p>: French</p>
+                        <p>: French, Spanish, English</p>
+                        <p>: 2 Beightbridge, BN7 GB9, United kingdom</p>
+                        <p>: France, Spain, Germany</p>
                     </div>
-                </div> */}
-                <button className="btn">Download CV</button>
-
+                </div>
+                <button className="btn">Download Cv</button>
             </div>
         </div>
     )
 }
-export default ImageSection
+
+export default ImageSection;

@@ -1,14 +1,15 @@
 import React from 'react'
-import reymond from "../img/reymond.jpg"
-import {NavLink} from 'react-router-dom'
+import avatar from '../img/avatar.png';
+import {NavLink} from 'react-router-dom';
 
-function NavBar() {
+function Navbar() {
     return (
         <div className="NavBar">
             <nav className="nav">
                 <div className="profile">
-                    <img src={reymond} alt=""/>
-                </div>
+                    <img src={avatar} alt=""/>
+                 </div>
+
                 <ul className="nav-items">
                     <li className="nav-item">
                         <NavLink to="/" exact activeClassName="active">
@@ -26,7 +27,7 @@ function NavBar() {
                         </NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="blogs" exact activeClassName="active">
+                        <NavLink to="/blogs" exact activeClassName="active">
                             Blogs
                         </NavLink>
                     </li>
@@ -36,15 +37,16 @@ function NavBar() {
                         </NavLink>
                     </li>
                 </ul>
+
                 <footer className="footer">
                     <p>
-                        @2021 Mesuga Reymond
+                        @2021 Lorem Ipsum
                     </p>
-                 </footer>
+                  </footer>
             </nav>
             
         </div>
     )
 }
 
-export default NavBar
+export default Navbar;

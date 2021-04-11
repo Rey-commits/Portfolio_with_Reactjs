@@ -1,6 +1,6 @@
 import React from 'react'
 
-function ContactItem({icon, text1, text2, title}){
+function ContactItem({icon, text1, text2,title}) {
     return (
         <div className="ContactItem">
             <div className="contact">

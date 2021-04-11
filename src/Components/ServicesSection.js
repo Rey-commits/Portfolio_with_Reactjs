@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 function ServicesSection({image, title, text}) {
     return (
@@ -6,9 +6,9 @@ function ServicesSection({image, title, text}) {
             <div className="service">
                 <div className="service-content">
                     <img src={image} alt=""/>
-                    <h5 className="s-title">{title} </h5>
+                    <h5 className="s-title">{title}</h5>
                     <p className="s-text">
-                        {text} 
+                        {text}
                     </p>
                 </div>
             </div>

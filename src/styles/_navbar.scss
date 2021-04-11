@@ -1,5 +1,5 @@
 .NavBar{
-    height:100vh; 
+    height: 100vh;
     .nav{
         height: 100%;
         display: flex;
@@ -11,22 +11,13 @@
             width: 100%;
             text-align: center;
             margin-top: 1rem;
-            // border-bottom: 1px solid #2e344e;
-            border-bottom: #003300;
+            border-bottom: 1px solid #2e344e;
             img{
-                width: 60%;
+                width: 70%;
                 border-radius: 100%;
                 border: 5px solid #2e344e;
                 margin-bottom: 1rem;
-                
             }
-            @media screen and (max-width: 600px){
-                width: 60%;
-            }
-            @media screen and (max-width: 1100px){
-                display: none;
-            }
-            
         }
 
         .nav-items{
@@ -34,12 +25,10 @@
             .nav-item{
                 list-style: none;
                 text-align: center;
-                // a is the NavLink
                 a{
                     text-decoration: none;
                     font-size: inherit;
-                    // color: inherit;
-                    color: white;
+                    color: inherit;
                     display: block;
                     padding: .5rem 0;
                     position: relative;
@@ -50,51 +39,32 @@
                         left: 0;
                         width: .4rem;
                         height: 100%;
-                        // background-color: #0381ff33;
-                        background-color: #0033005d;
+                        background-color: #0381ff33;
                         transform-origin: bottom;
                         transform: scale(0);
-                        // overflow-x: hidden;
-                        transition: transform .6s, .2s width .5s cubic-bezier(1,-0.16,.6,1.32);
+                        overflow-x: hidden;
+                        transition: transform .6s, .2s width .5s cubic-bezier(1,-0.16,.6,1.35);
                     }
 
                     &:hover::before{
                         width: 100%;
                         transform: scale(1);
-
                     }
                 }
             }
-            @media screen and (max-width: 700px){
-                margin-top: 7rem;
-                font-size: 1.6rem;
-            }
         }
-    
 
-        .footer {
+        .footer{
             width: 100%;
-            // border-top: 1px solid #2e344e;
-            border-top: #003333;
-            color: white;
+            border-top: 1px solid #2e344e;
             p{
                 text-align: center;
                 padding: 1rem 0;
             }
-            @media screen and (max-width: 700px){
-                margin-top: 7rem;
-                font-size: 1.1rem;
-            }
         }
-
-    }
-    @media screen and (max-width: 600px){
-        // display: none;
     }
 }
 
 .active{
-    // background-color: #0314ff9d;
-    background-color: #003300;
+    background-color: #037FFF;
 }
-

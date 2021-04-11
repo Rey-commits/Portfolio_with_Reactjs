@@ -1,8 +1,7 @@
-/* eslint-disable no-unused-vars */
 import React from 'react';
 import Categories from '../Components/Categories';
 import MenuItems from '../Components/MenuItems';
-import Title from '../Components/Title';
+import Tittle from '../Components/Tittle';
 import portfolios from '../Components/allportfolios';
 import { useState } from 'react';
 
@@ -26,7 +25,7 @@ function PortfoliosPage() {
     return (
         <div className="PortfolioPage">
             <div className="title">
-                <Title title={'Portfolios'} span={'portfolios'} />
+                <Tittle title={'Portfolios'} span={'portfolios'} />
             </div>
             <div className="portfolios-data">
                 <Categories filter={filter} categories={categories} />

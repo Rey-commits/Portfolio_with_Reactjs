@@ -13,4 +13,3 @@ function Categories({filter, categories}) {
 }
 
 export default Categories;
-

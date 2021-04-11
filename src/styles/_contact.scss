@@ -6,18 +6,19 @@
     .contact{
         display: flex;
         align-items: center;
-        background-color:#191D2B ;
+        background-color: #003333;
         padding: 3rem 0;
         .right-items{
             margin-left: 2rem;
         }
         img{
             padding: 1rem;
-            border: 1px solid #2e344e;
+            border: 1px solid #009900;
             margin-left: 2rem;
             width: 16%;
         }
         .right-items{
+            color: rgb(228, 228, 228);
             h6{
                 font-size: 1.4rem;
                 font-weight: 500;
@@ -45,7 +46,7 @@
 .map-sect{
     width: 97%;
     padding: 1rem;
-    background-color:#191D2B;
+    background-color:#383838;
     iframe{
         width: 100%;
         height: 100%;

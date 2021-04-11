@@ -11,8 +11,8 @@ const portfolios = [
         category: 'Animation',
         link1: 'www.youtube.com',
         link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
+        icon1: 'Blog',
+        icon2: 'GitHub',
         image: port1,
         title: 'Autodesk Maya'
     },
@@ -21,8 +21,8 @@ const portfolios = [
         category: 'Python',
         link1: 'www.youtube.com',
         link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
+        icon1: 'Blog',
+        icon2: 'GitHub',
         image: port2,
         title: 'Python Web Scrapping'
     },
@@ -31,8 +31,8 @@ const portfolios = [
         category: 'Animation',
         link1: 'www.youtube.com',
         link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
+        icon1: 'Blog',
+        icon2: 'GitHub',
         image: port3,
         title: 'Autodesk Maya'
     },
@@ -41,8 +41,8 @@ const portfolios = [
         category: 'Javascript',
         link1: 'www.youtube.com',
         link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
+        icon1: 'Blog',
+        icon2: 'GitHub',
         image: port4,
         title: 'Vanilla Javascript Website'
     },
@@ -51,8 +51,8 @@ const portfolios = [
         category: 'React Js',
         link1: 'www.youtube.com',
         link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
+        icon1: 'Blog',
+        icon2: 'GitHub',
         image: port6,
         title: 'Getting Started With React'
     },
@@ -61,8 +61,8 @@ const portfolios = [
         category: 'React Js',
         link1: 'www.youtube.com',
         link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
+        icon1: 'Blog',
+        icon2: 'GitHub',
         image: port7,
         title: 'Vanilla Javascript Website'
     },
@@ -71,8 +71,8 @@ const portfolios = [
         category: 'Test Port',
         link1: 'www.youtube.com',
         link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
+        icon1: 'Blog',
+        icon2: 'GitHub',
         image: port4,
         title: 'Vanilla Javascript Website'
     }

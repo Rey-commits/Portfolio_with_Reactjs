@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import Categories from '../Components/Categories';
 import MenuItems from '../Components/MenuItems';
